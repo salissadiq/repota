@@ -14,7 +14,7 @@ import { useContext, useEffect, useState } from 'react'
 
 export default function Home() {
   const { data: session } = useSession();
-  const [category, setCategory] = useState("Hospitals");
+  const [category, setCategory] = useState("Hospitals Clinics");
   const [radius, setRadius] = useState(2500);
   const [businessList, setBusinessList] = useState([])
   const [businessListOrg, setBusinessListOrg] = useState([])
