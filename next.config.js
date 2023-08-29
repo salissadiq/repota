@@ -1,4 +1,11 @@
 /** @type {import('next').NextConfig} */
+const withPWA = require('next-pwa')({
+    dest: 'public',
+    register: true,
+    skipWaiting: true
+})
+
+
 const nextConfig = {
     reactStrictMode: false,
 
@@ -7,5 +14,6 @@ const nextConfig = {
         domains: ['lh3.googleusercontent.com', 'maps.googleapis.com']
     }
 }
-
-module.exports = nextConfig
+module.exports = withPWA({
+    nextConfig
+})

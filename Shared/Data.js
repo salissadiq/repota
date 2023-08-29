@@ -3,25 +3,25 @@ const CategoryListData = [
         id: 1,
         name: 'Hospital And Clinic',
         value: 'Hospitals',
-        icon: '/map-marker.png'
+        icon: '/hospital.png'
     },
     {
         id: 2,
         name: 'Drug Stores',
         value: 'Phamacies',
-        icon: '/taco.png'
+        icon: '/drugs.png'
     },
     {
         id: 3,
         name: 'Laboratories',
         value: 'Laboratories',
-        icon: '/ramen.png'
+        icon: '/lab.png'
     },
     {
         id: 4,
         name: 'Imaging center',
         value: 'Imaging Center',
-        icon: '/pizza.png'
+        icon: '/imagin.png'
     },
 
 
