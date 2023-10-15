@@ -15,7 +15,7 @@ import { useContext, useEffect, useState } from 'react'
 export default function Home() {
   const { data: session } = useSession();
   const [category, setCategory] = useState("");
-  const [radius, setRadius] = useState(2500);
+  const [radius, setRadius] = useState(200);
   const [businessList, setBusinessList] = useState([])
   const [businessListOrg, setBusinessListOrg] = useState([])
   const [loading, setLoading] = useState(false);
